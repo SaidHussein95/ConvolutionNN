@@ -1,5 +1,8 @@
 # ConvolutionNN
 This repository contains a Python framework for building and training fully connected neural networks, with extensions for convolutional neural networks (CNNs). The framework includes implementation of initialization schemes, advanced optimizers, and key layers such as convolutional and max-pooling layers.
+# Install the required dependencies:
+pip install numpy 
+from Base import Base Layer
 # Initializers
 The Initializers.py module in the Layers folder contains implementation of four initialization schemes: Constant, UniformRandom, Xavier, and He. Each initializer provides the initialize(weights_shape, fan_in, fan_out) method for initializing tensors.
 
